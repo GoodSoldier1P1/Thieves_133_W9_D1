@@ -1,0 +1,40 @@
+body{
+    background-image: url(https://www.bossksbounty.com/wp-content/uploads/2022/10/jedi-council-members-scaled.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+a{
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+h1{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding: 15px;
+    text-shadow: 0.5px 0.5px black
+}
+
+.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+.transbox p:hover {
+  font-weight: bold;
+  color: #000000;
+  transform: scale(2);
+}
